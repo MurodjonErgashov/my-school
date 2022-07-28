@@ -15,4 +15,4 @@ app.use('/', require('./app/app') )
 const port = process.env.PORT || 3000
 app.listen(port, () =>  {
     console.log(`Server is UP and Running in ${port} port`)
-})
+});
